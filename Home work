@@ -1,0 +1,15 @@
+def sum_of_evens(numbers):
+def square(x):
+ return x * x
+
+total = 0
+for number in numbers:
+ if number % 2 == 0:
+ total += square(number)
+
+return total
+
+# Пример использования
+numbers_list = [1,2,3,4,5,6]
+result = sum_of_squares_of_evens(numbers_list)
+print(result) # Вывод: 56 (2^2 + 4^2 + 6^2 = 4 + 16 + 36)
